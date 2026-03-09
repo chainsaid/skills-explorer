@@ -1,0 +1,7 @@
+services:
+  skills-catalog:
+    build: .
+    container_name: skills-catalog
+    ports:
+      - "8080:80"
+    restart: unless-stopped

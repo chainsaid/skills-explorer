@@ -1,0 +1,39 @@
+:root {
+  --vp-c-brand-1: #7c3aed;
+  --vp-c-brand-2: #6d28d9;
+  --vp-c-brand-3: #5b21b6;
+}
+
+.VPFeature {
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
+  border-radius: 16px;
+}
+
+.skill-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.pill {
+  font-size: 12px;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 14%, var(--vp-c-bg));
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.skill-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.action-link {
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
